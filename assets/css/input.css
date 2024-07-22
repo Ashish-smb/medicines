@@ -19,9 +19,15 @@
     .g-cols5 {
         @apply grid lg:grid-cols-5 gap-6 m-0;
     }
-
-    
-
+    .hero-area .hero-area-carousel .owl-dots {
+        @apply p-1 text-center bg-slate-400 inline absolute bottom-3 left-[45%] rounded-full;
+    }
+    .hero-area .hero-area-carousel .owl-dots .owl-dot {
+        @apply w-2 h-2 p-2.5 bg-slate-200 m-2 rounded-full;
+    }
+    .hero-area .hero-area-carousel .owl-dots .owl-dot.active {
+        @apply bg-white w-8 rounded-lg duration-1000;
+    } 
 }
 
     
