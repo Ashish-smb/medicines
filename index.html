@@ -79,34 +79,34 @@
             </div>
         </div>
      </div>
-    <!-- section -->
+    <!-- tab section -->
      <section class="hair-deals bg-cyan-700 py-8">
         <div class="container-base">    
             <h2 class="text-2xl capitalize text-cyan-200">
                 <span class="font-semibold">shop</span> by hairfall stages (men)
             </h2>
             <div class="hairfall-stages">
-                <ul class="uppercase flex justify-around text-orange-600 font-semibold text-center">
-                    <li class="">
-                        <a href="javascript:void(0)">
+                <ul class="uppercase flex justify-around mt-10 text-orange-600 font-semibold text-center">
+                    <li class="active" data-tab="#first">
+                        <a href="javascript:void(0)"  class="">
                             stage 1
                             <img src="assets//imgs/hairStages1.webp" alt="">
                         </a>
                     </li>
-                    <li class="">
-                        <a href="javascript:void(0)">
+                    <li class="" data-tab="#second">
+                        <a href="javascript:void(0)" >
                             stage 2
                             <img src="assets//imgs/hairStages2.webp" alt="">
                         </a>
                     </li>
-                    <li class="">
-                        <a href="javascript:void(0)">
+                    <li class="" data-tab="#third">
+                        <a href="javascript:void(0)" >
                             stage 3
                             <img src="assets//imgs/hairStage3.webp" alt="">
                         </a>
                     </li>
-                    <li class="">
-                        <a href="javascript:void(0)">
+                    <li class="" data-tab="#fourth">
+                        <a href="javascript:void(0)" >
                             stage 4
                             <img src="assets//imgs/hairStages4.webp" alt="">
                         </a>
@@ -114,7 +114,7 @@
                 </ul>
             </div>
             <div class="hairfall-view text-white mt-6">
-                <div class="hair-stages" id="first">
+                <div class="hair-stages active" id="first">
                     <h2 class="text-xl font-semibold">
                         Stage 1 Hairfall
                     </h2>
@@ -132,25 +132,180 @@
                                 </a>
                             </button>
                         </div>
-                        <div class="card rounded-lg bg-cyan-300/50 p-2">
-                            <div class="img w-full h-[200px]">
-                                <img src="assets/imgs/cardHairfallStage1.webp" class="rounded-lg-t w-full border h-full" alt="">
+                        <a href="javascript:void(0)">
+                            <div class="card rounded-lg bg-cyan-300/50 p-2">
+                                <div class="img w-full h-[200px]">
+                                    <img src="assets/imgs/cardHairfallStage1.webp" class="rounded-lg-t w-full border h-full" alt="">
+                                </div>
+                                <div class="card-content text-white capitalize p-2">
+                                    <h3 class="text-cyan-900 font-semibold text-lg">
+                                        hk vitals hair fall solution <br> STAGE 1
+                                    </h3>
+                                    <span class="text-sm font-semibold">
+                                        price <del>₹1689</del> <span class="text-lg">₹999</span><br>
+                                        pay online & 50 vital earn cash
+                                    </span>
+                                </div>
                             </div>
-                            <div class="card-content text-white capitalize p-2">
-                                <h3 class="text-cyan-900 font-semibold text-lg">
-                                    hk vitals hair fall solution <br> STAGE 1
-                                </h3>
-                                <span class="text-sm font-semibold">
-                                    price <del>₹1689</del> <span class="text-lg">₹999</span><br>
-                                    pay online & 50 vital earn cash
-                                </span>
+                        </a>
+                    </div>
+                </div>
+                <div class="hair-stages" id="second">
+                    <h2 class="text-xl font-semibold">
+                        Stage 2 Hairfall
+                    </h2>
+                    <div class="stages-content">
+                        In Stage 1, you have limited or no hairfall with no visible hairline recession. In this 'control stage' you can easily reverse your hairloss. Take action now to maintain your hair health.
+                    </div>
+                    <div class="cards flex justify-center gap-8 mt-8">
+                        <div class="card rounded-xl">
+                            <div class="img">
+                                <img src="assets/imgs/hairFallStages1.webp" class="rounded-xl" alt="">
                             </div>
+                            <button class="bg-cyan-500 text-white font-semibold w-full text-center mt-6 py-2 rounded-full hover:bg-cyan-400 duration-300">
+                                <a href="javascript:void(0)" class="inline-block">
+                                    ADD TO CART 
+                                </a>
+                            </button>
                         </div>
+                        <a href="javascript:void(0)">
+                            <div class="card rounded-lg bg-cyan-300/50 p-2">
+                                <div class="img w-full h-[200px]">
+                                    <img src="assets/imgs/cardHairfallStage1.webp" class="rounded-lg-t w-full border h-full" alt="">
+                                </div>
+                                <div class="card-content text-white capitalize p-2">
+                                    <h3 class="text-cyan-900 font-semibold text-lg">
+                                        hk vitals hair fall solution <br> STAGE 1
+                                    </h3>
+                                    <span class="text-sm font-semibold">
+                                        price <del>₹1689</del> <span class="text-lg">₹999</span><br>
+                                        pay online & 50 vital earn cash
+                                    </span>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+                <div class="hair-stages" id="third">
+                    <h2 class="text-xl font-semibold">
+                        Stage 3 Hairfall
+                    </h2>
+                    <div class="stages-content">
+                        In Stage 1, you have limited or no hairfall with no visible hairline recession. In this 'control stage' you can easily reverse your hairloss. Take action now to maintain your hair health.
+                    </div>
+                    <div class="cards flex justify-center gap-8 mt-8">
+                        <div class="card rounded-xl">
+                            <div class="img">
+                                <img src="assets/imgs/hairFallStages1.webp" class="rounded-xl" alt="">
+                            </div>
+                            <button class="bg-cyan-500 text-white font-semibold w-full text-center mt-6 py-2 rounded-full hover:bg-cyan-400 duration-300">
+                                <a href="javascript:void(0)" class="inline-block">
+                                    ADD TO CART 
+                                </a>
+                            </button>
+                        </div>
+                        <a href="javascript:void(0)">
+                            <div class="card rounded-lg bg-cyan-300/50 p-2">
+                                <div class="img w-full h-[200px]">
+                                    <img src="assets/imgs/cardHairfallStage1.webp" class="rounded-lg-t w-full border h-full" alt="">
+                                </div>
+                                <div class="card-content text-white capitalize p-2">
+                                    <h3 class="text-cyan-900 font-semibold text-lg">
+                                        hk vitals hair fall solution <br> STAGE 1
+                                    </h3>
+                                    <span class="text-sm font-semibold">
+                                        price <del>₹1689</del> <span class="text-lg">₹999</span><br>
+                                        pay online & 50 vital earn cash
+                                    </span>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+                <div class="hair-stages" id="fourth">
+                    <h2 class="text-xl font-semibold">
+                        Stage 4 Hairfall
+                    </h2>
+                    <div class="stages-content">
+                        In Stage 1, you have limited or no hairfall with no visible hairline recession. In this 'control stage' you can easily reverse your hairloss. Take action now to maintain your hair health.
+                    </div>
+                    <div class="cards flex justify-center gap-8 mt-8">
+                        <div class="card rounded-xl">
+                            <div class="img">
+                                <img src="assets/imgs/hairFallStages1.webp" class="rounded-xl" alt="">
+                            </div>
+                            <button class="bg-cyan-500 text-white font-semibold w-full text-center mt-6 py-2 rounded-full hover:bg-cyan-400 duration-300">
+                                <a href="javascript:void(0)" class="inline-block">
+                                    ADD TO CART 
+                                </a>
+                            </button>
+                        </div>
+                        <a href="javascript:void(0)">
+                            <div class="card rounded-lg bg-cyan-300/50 p-2">
+                                <div class="img w-full h-[200px]">
+                                    <img src="assets/imgs/cardHairfallStage1.webp" class="rounded-lg-t w-full border h-full" alt="">
+                                </div>
+                                <div class="card-content text-white capitalize p-2">
+                                    <h3 class="text-cyan-900 font-semibold text-lg">
+                                        hk vitals hair fall solution <br> STAGE 1
+                                    </h3>
+                                    <span class="text-sm font-semibold">
+                                        price <del>₹1689</del> <span class="text-lg">₹999</span><br>
+                                        pay online & 50 vital earn cash
+                                    </span>
+                                </div>
+                            </div>
+                        </a>
                     </div>
                 </div>
             </div>
         </div>
      </section>
+    <!-- product-carousel section -->
+    <div class="protein-range my-12">
+    <div class="container-base">
+        <div class="owl-carousel product-carousel">
+            <a href="javascript:void(0)">
+                <div class="card border" class="p-2">
+                    <div class="card-img">
+                        <img src="assets/imgs/hairFallStages1.webp" alt="">
+                    </div>
+                    <div class="card-content text-black capitalize p-2">
+                        <h3 class="text-cyan-900 font-semibold text-lg">
+                            hk vitals hair fall solution <br> STAGE 1
+                        </h3>
+                        <span class="text-sm ">
+                            price <del class="text-gray-500" >₹1689</del> <span class="text-lg">₹999</span><br>
+                            pay online & 50 vital earn cash
+                        </span>
+                    </div>
+                </div>
+            </a>
+        </div>
+    </div>
+    </div>
+    <div class="protein-range mb-8">
+    <div class="container-base">
+        <div class="owl-carousel product-carousel">
+            <a href="javascript:void(0)">
+                <div class="card border" class="p-2">
+                    <div class="card-img">
+                        <img src="assets/imgs/hairFallStages1.webp" alt="">
+                    </div>
+                    <div class="card-content text-black capitalize p-2">
+                        <h3 class="text-cyan-900 font-semibold text-lg">
+                            hk vitals hair fall solution <br> STAGE 1
+                        </h3>
+                        <span class="text-sm ">
+                            price <del class="text-gray-500" >₹1689</del> <span class="text-lg">₹999</span><br>
+                            pay online & 50 vital earn cash
+                        </span>
+                    </div>
+                </div>
+            </a>
+        </div>
+    </div>
+    </div>
     <!-- fotter -->
     <footer class="footer bg-slate-100 py-6">
         <div class="container-base">
@@ -244,9 +399,14 @@
         </div>
     </footer>        
     <!-- fotter-bottom -->
-    <div class="footer-bottom py-3">
-        <div class="container-base capitalize text-sm text-center">
-            &copy; spread my career. all right reserved(terms of use)
+    <div class="footer-bottom bg-slate-100 capitalize">
+        <div class="container-base flex justify-between text-gray-500 border-t-2 py-3 max-lg:block">
+            <span>
+                copyright &copy; to HK Vitals all right reserved
+            </span>
+            <span>
+                made with <i class="fas fa-heart text-red-500"></i> <a href="https://spreadmycareer.in/">SpreadMyBuisness</a>
+            </span>
         </div>
     </div>
 </body>

@@ -5,7 +5,7 @@
 @layer components {
 
     .container-base {
-        @apply container mx-auto px-16;
+        @apply container mx-auto;
     }
     .g-cols2 {
         @apply grid lg:grid-cols-2 gap-6 m-0;
@@ -28,6 +28,16 @@
     .hero-area .hero-area-carousel .owl-dots .owl-dot.active {
         @apply bg-white w-8 rounded-lg duration-1000;
     } 
+    /* menu-tab */
+    .hair-deals .hairfall-stages li.active {
+        @apply bg-cyan-400 text-black p-1 rounded-lg duration-300;
+    }
+    .hair-deals .hairfall-view > div {
+        display: none;
+    }
+    .hair-deals .hairfall-view > div.active {
+        display: block;
+    }
 }
 
     
