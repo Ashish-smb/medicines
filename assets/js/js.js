@@ -30,3 +30,44 @@ $('#deals-prev').click(function () {
 $('#deals-next').click(function() {
     guide.trigger('next.owl.carousel');
 });
+
+// wellness carousel 
+$('.wellness-carousel').owlCarousel({
+    items: 5,
+    loop:true,
+    margin:20,
+});
+const wellness = $('.wellness-carousel');
+$('#well-prev').click(function () {
+    wellness.trigger('prev.owl.carousel');
+});
+$('#well-next').click(function() {
+    wellness.trigger('next.owl.carousel');
+});
+
+// assure carousel
+$('.assure-carousel').owlCarousel({
+    items: 5,
+    loop:true,
+    margin:20,
+});
+const assure = $('.assure-carousel');
+$('#assure-prev').click(function () {
+    assure.trigger('prev.owl.carousel');
+});
+$('#assure-next').click(function() {
+    assure.trigger('next.owl.carousel');
+});
+// offer carousel
+$('.offer-carousel').owlCarousel({
+    items: 5,
+    loop:true,
+    margin:20,
+});
+const offer = $('.offer-carousel');
+$('#offer-prev').click(function () {
+    offer.trigger('prev.owl.carousel');
+});
+$('#offer-next').click(function() {
+    offer.trigger('next.owl.carousel');
+});
